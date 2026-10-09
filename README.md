@@ -33,6 +33,21 @@
   <img src="Resources/ScreenShot.png" alt="MediaInfoKeeper" width="640" />
 </p>
 
+> [!IMPORTANT]
+> 这是 [honue/MediaInfoKeeper](https://github.com/honue/MediaInfoKeeper) 的个人维护分支，保留原作者署名并遵循 GPLv3。
+> 当前分支基于 Emby Server 4.10.0.40 验证，新增按媒体库范围补齐缺失媒体信息、片头片尾标记和视频预览缩略图，并优化后台任务状态与中文使用说明。
+> 上游合并情况见 [Pull Request #49](https://github.com/honue/MediaInfoKeeper/pull/49)。
+
+🔧 本分支调整
+------------
+
+- 仅为缺少媒体流的条目提取媒体信息，已有内容不修改。
+- 仅扫描缺少片头片尾标记的剧集。
+- 强制为缺少时间轴预览缩略图的视频生成缩略图，已有内容不重建。
+- 08、09、10 号任务可分别选择媒体库范围。
+- 优化插件主页后台任务状态、计划任务名称和操作说明。
+- 详细配置方法见 [使用指南](Docs/使用指南.md)。
+
 ✨ 功能概览
 --------
 
